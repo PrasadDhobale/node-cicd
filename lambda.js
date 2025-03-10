@@ -4,7 +4,7 @@ const serverless = require('serverless-http');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json({ message: "Hello, Lambda!" });
+    res.json({ message: "Hello, Lambda!..." });
 });
 
 module.exports.handler = serverless(app);
